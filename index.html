@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>abstract form</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .abbs-form{
+            width: 100vw;
+            height: 100vh;
+            background-image: url(image.png);
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .form-item{
+            width: auto;
+            height: auto;
+            padding: 30px 20px;
+            border-radius: 30px;
+            background-color: rgba(0, 0, 0, 0.4);
+            text-align: center;
+        }
+        .form-item input{
+            margin: 10px 4px;
+            padding: 8px 5px;
+            border-radius: 10px;
+            background-color: rgb(16 16 16 / 50%);
+            border:none;
+            outline: none;
+            color: rgb(139, 6, 6);
+            letter-spacing: 1px;
+        }
+        .form-item button{
+            margin-top: 20px;
+            border: none;
+            padding: 8px 15px;
+            background-color: rgba(30, 143, 255, 0.705);
+            color: white;
+            border-radius: 10px;
+            cursor: pointer;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <section class="abbs-form">
+        <form class="form-item" action="">
+            <input type="text" name="userName" id="userName" placeholder="User Name"> <br>
+            <input type="email" name="email" id="email" placeholder="Email"> <br>
+            <button>Login</button>
+        </form>
+    </section>
+</body>
+</html>
